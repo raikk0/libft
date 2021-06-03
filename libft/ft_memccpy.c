@@ -15,7 +15,7 @@
 void	*ft_memccpy(void *dest, const void *src, int c, size_t n)
 {
 	size_t	i;
-	void	*ret;
+	char	*ret;
 
 	i = 0;
 	ret = ft_strdup(dest);
