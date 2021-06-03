@@ -18,7 +18,7 @@ void	*ft_memccpy(void *dest, const void *src, int c, size_t n)
 	char	*ret;
 
 	i = 0;
-	ret = ft_strdup(dest);
+	ret = dest;
 	while (i < n)
 	{
 		((char *)dest)[i] = ((char *)src)[i];
