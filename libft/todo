@@ -1,9 +1,0 @@
-- estudar os comandos "ar rcs" e "ranlib"
-- entender o propósito das seguintes linhas no libft da pinha:
-	-> [15] LIB1	= ar -rcs // comando para gerar o arquivo de biblioteca .a
-	-> [16] LIB2	= ranlib // faz a indexação da biblioteca, aumentando a performance na hora de usar a biblioteca
-	-> [52] $(CC) $(CFLAGS) -I$(INCLUDE) -c $< -o $(<:.c=.o) // compila todo o projeto
-	-> [48] $(LIB1) $(NAME) $(BONUS_O) // roda o comando ar -rcs
-	-> [49] $(LIB2) $(NAME) // roda o comando ranlib
-
-
