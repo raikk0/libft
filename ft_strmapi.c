@@ -20,7 +20,7 @@
 *	
 *	char f(unsigned int i, char c)
 *	{
-*		return (ft_toupper(c + (i-i))); // a soma "c + (i-i)"  server somente para o compilador não encanar de não ter usado o parâmetro 'i'.
+*		return (ft_toupper(c + (i-i))); // a soma "c + (i-i)"  serve somente para o compilador não encanar de não ter usado o parâmetro 'i'.
 *	}
 *
 *	char string[] = "Meu pastel é mais barato";
